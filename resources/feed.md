@@ -9,6 +9,18 @@ API resources
 * [Properties](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#properties)
 * [Status Codes](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#status-codes)
 * [Endpoints](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#endpoints)
+    * [Get topics](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#get-feedfeed_typeid)
+    * [Create topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiccreate)
+    * [Get comments](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#get-feedtopicid)
+    * [Delete topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddelete)
+    * [Like topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidlike)
+    * [Disliek topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddislike)
+    * [Report topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidreport)
+    * [Create comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidcreate_comment)
+    * [Delete comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddelete)
+    * [Like comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidlike)
+    * [Dislike comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddislike)
+    * [Report comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidreport)
 
 
 Properties
@@ -173,7 +185,8 @@ Ok example
             "student_name": "Bruno",
             "dislike": 0,
             "contents": "Ninguem topa?",
-    },
+        },
+    ],
     "topic_dict": {
         "topic_student_name": "Bruno",
         "topic_dislikes": 1,
