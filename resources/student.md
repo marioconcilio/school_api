@@ -14,6 +14,7 @@ API resources
     * [Edit student](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#post-studentid)
     * [Create friendship](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#post-studentfriendshipcreate)
     * [Delete friendship](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#post-studentfriendshipdelete)
+    * [Get friends](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#get-studentfriendshipget)
     * [Send message](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#post-studentmessagecreate)
     * [Get messages](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#get-studentmessagegetid)
     * [Send wink](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md#post-studentwinkcreate)
@@ -299,7 +300,7 @@ Get a list of friends from the student (in alphabetical order).
         },
         {
             "friend_id": 3,
-            "friend_name: "Roberson",
+            "friend_name": "Roberson",
         },
     ],
 }
