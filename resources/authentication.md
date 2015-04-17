@@ -1,4 +1,4 @@
-We provide authorization and user authentication by a restricted form of OAuth 2. In a glance:
+We provide authorization and user authentication by a restricted form of BasicAuth. In a glance:
 - The only grant type we support is the "authorization code" one.
 - Our access tokens don't expire. They become invalid only if the user removes his/her profile from the app.
 
@@ -43,3 +43,4 @@ And you will recieve (if everything is ok):
 ```
 
 And now you will store the `user_hash` and use it in the future requests.
+When creating the BasicAuth token, the login will not be used and the password will be the `user_hash`.
