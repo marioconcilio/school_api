@@ -46,4 +46,3 @@ API resources
 
 * [Student](https://github.com/brunocordeiro/school_api/blob/master/resources/student.md)
 * [Feed](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md)
-* [Event](https://github.com/brunocordeiro/school_api/blob/master/resources/event.md)

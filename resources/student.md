@@ -126,6 +126,7 @@ Error example
     "user_hash": "",
 }
 ```
+
 ### POST /student
 
 Creates a new student.
