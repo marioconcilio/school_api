@@ -14,13 +14,13 @@ API resources
     * [Get comments](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#get-feedtopicid)
     * [Delete topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddelete)
     * [Like topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidlike)
-    * [Disliek topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddislike)
+    * [Dislike topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddislike)
     * [Report topic](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidreport)
     * [Create comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidcreate_comment)
-    * [Delete comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddelete)
-    * [Like comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidlike)
-    * [Dislike comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiciddislike)
-    * [Report comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopicidreport)
+    * [Delete comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiccommentiddelete)
+    * [Like comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiccommentidlike)
+    * [Dislike comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiccommentiddislike)
+    * [Report comment](https://github.com/brunocordeiro/school_api/blob/master/resources/feed.md#post-feedtopiccommentidreport)
 
 
 Properties
